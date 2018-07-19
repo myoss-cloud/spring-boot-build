@@ -22,6 +22,6 @@
 <dependency>
     <groupId>com.github.myoss</groupId>
     <artifactId>phoenix-parent</artifactId>
-    <version>1.1.0.RELEASE</version>
+    <version>1.1.1.RELEASE</version>
 </dependency>
 ```

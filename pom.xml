@@ -11,7 +11,7 @@
 
     <groupId>com.github.myoss</groupId>
     <artifactId>phoenix-parent</artifactId>
-    <version>1.1.1-SNAPSHOT</version>
+    <version>1.1.1.RELEASE</version>
     <packaging>pom</packaging>
 
     <name>phoenix-parent</name>
@@ -53,6 +53,7 @@
 
         <!-- third party -->
         <puppycrawl-tools-checkstyle.version>8.10</puppycrawl-tools-checkstyle.version>
+        <spring-javaformat-checkstyle.version>0.0.5</spring-javaformat-checkstyle.version>
         <!-- third party -->
     </properties>
 
@@ -173,7 +174,7 @@
                     <dependency>
                         <groupId>io.spring.javaformat</groupId>
                         <artifactId>spring-javaformat-checkstyle</artifactId>
-                        <version>0.0.5</version>
+                        <version>${spring-javaformat-checkstyle.version}</version>
                     </dependency>
                 </dependencies>
                 <executions>
