@@ -46,6 +46,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
+
+        <!-- myoss cloud -->
+        <code-format-checkstyle.version>1.0.0.RELEASE</code-format-checkstyle.version>
+        <!-- myoss cloud -->
+
+        <!-- third party -->
+        <puppycrawl-tools-checkstyle.version>8.10</puppycrawl-tools-checkstyle.version>
+        <!-- third party -->
     </properties>
 
     <dependencies>
@@ -142,6 +150,48 @@
                         <phase>verify</phase>
                         <goals>
                             <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <!-- 检查代码格式 -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>3.0.0</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.puppycrawl.tools</groupId>
+                        <artifactId>checkstyle</artifactId>
+                        <version>${puppycrawl-tools-checkstyle.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.github.myoss.checkstyle</groupId>
+                        <artifactId>code-format-checkstyle</artifactId>
+                        <version>${code-format-checkstyle.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>io.spring.javaformat</groupId>
+                        <artifactId>spring-javaformat-checkstyle</artifactId>
+                        <version>0.0.5</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <id>checkstyle-validation</id>
+                        <phase>validate</phase>
+                        <configuration>
+                            <skip>${disable.checks}</skip>
+                            <configLocation>checkstyle/checkstyle.xml</configLocation>
+                            <suppressionsLocation>checkstyle/checkstyle-suppressions.xml</suppressionsLocation>
+                            <headerLocation>checkstyle/checkstyle-header.txt</headerLocation>
+                            <encoding>UTF-8</encoding>
+                            <consoleOutput>true</consoleOutput>
+                            <failsOnError>true</failsOnError>
+                            <includeTestSourceDirectory>true</includeTestSourceDirectory>
+                        </configuration>
+                        <goals>
+                            <goal>check</goal>
                         </goals>
                     </execution>
                 </executions>
