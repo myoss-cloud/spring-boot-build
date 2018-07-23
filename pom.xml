@@ -199,4 +199,27 @@
             </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>oss-nexus-auto-releases</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <!-- Nexus Staging Plugin, auto deploy close and release -->
+                        <!-- 该插件允许你方便的将组件发布到Maven中央仓库, 而不需要登录OSSRH网站自己去Close然后又Release -->
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.8</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <serverId>nexus-releases</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>
