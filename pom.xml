@@ -11,7 +11,7 @@
 
     <groupId>com.github.myoss</groupId>
     <artifactId>phoenix-parent</artifactId>
-    <version>1.1.1.RELEASE</version>
+    <version>1.1.2-SNAPHOST</version>
     <packaging>pom</packaging>
 
     <name>phoenix-parent</name>
