@@ -1,6 +1,6 @@
 # phoenix-parent
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.myoss/phoenix-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.myoss/phoenix-parent/)
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.myoss/phoenix-parent.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.myoss/phoenix-parent/)
 [![GitHub release](https://img.shields.io/github/release/myoss-cloud/phoenix-parent.svg)](https://github.com/myoss-cloud/phoenix-parent/releases)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
@@ -22,6 +22,6 @@
 <dependency>
     <groupId>com.github.myoss</groupId>
     <artifactId>phoenix-parent</artifactId>
-    <version>1.1.1.RELEASE</version>
+    <version>1.1.2.RELEASE</version>
 </dependency>
 ```
