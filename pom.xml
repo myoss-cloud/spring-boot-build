@@ -49,7 +49,15 @@
 
         <!-- myoss cloud -->
         <code-format-checkstyle.version>1.0.0.RELEASE</code-format-checkstyle.version>
+        <myoss-cloud-projects.version>1.0.0.RELEASE</myoss-cloud-projects.version>
         <!-- myoss cloud -->
+
+        <!-- third party -->
+        <fastjson.version>1.2.49</fastjson.version>
+        <guava.version>26.0-jre</guava.version>
+        <commons-text.version>1.3</commons-text.version>
+        <squareup-okhttp3.version>3.11.0</squareup-okhttp3.version>
+        <!-- third party -->
 
         <!-- third party -->
         <spring-boot.version>2.0.4.RELEASE</spring-boot.version>
@@ -105,6 +113,56 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!-- myoss cloud dependencies start -->
+            <dependency>
+                <groupId>app.myoss.cloud</groupId>
+                <artifactId>myoss-cloud-core</artifactId>
+                <version>${myoss-cloud-projects.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>app.myoss.cloud</groupId>
+                <artifactId>myoss-cloud-apm</artifactId>
+                <version>${myoss-cloud-projects.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>app.myoss.cloud</groupId>
+                <artifactId>myoss-cloud-cache</artifactId>
+                <version>${myoss-cloud-projects.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>app.myoss.cloud</groupId>
+                <artifactId>myoss-cloud-web</artifactId>
+                <version>${myoss-cloud-projects.version}</version>
+            </dependency>
+            <!-- myoss cloud dependencies end -->
+
+            <!-- utils start -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+            <dependency>
+                <!-- 替换 commons-lang3 中的部分过时依赖 -->
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-text</artifactId>
+                <version>${commons-text.version}</version>
+            </dependency>
+            <!-- utils end -->
+
+            <!-- http client start -->
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${squareup-okhttp3.version}</version>
+            </dependency>
+            <!-- http client end -->
         </dependencies>
     </dependencyManagement>
 
