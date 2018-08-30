@@ -36,7 +36,7 @@
     <developers>
         <developer>
             <name>Jerry.Chen</name>
-            <email>jerry.myoss@gmail.com</email>
+            <email>jerry.work@aliyun.com</email>
             <organizationUrl>https://github.com/myoss</organizationUrl>
         </developer>
     </developers>
@@ -110,6 +110,41 @@
 
     <build>
         <plugins>
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-other-resources</id>
+                        <phase>process-sources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/target/classes</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <!-- 先复制父项目中的 README/LICENSE 文件，再用自己项目中的 README/LICENSE 文件覆盖（如果有的话） -->
+                                    <directory>../</directory>
+                                    <includes>
+                                        <include>README.md</include>
+                                        <include>readme.md</include>
+                                        <include>LICENSE</include>
+                                    </includes>
+                                </resource>
+                                <resource>
+                                    <directory>${basedir}</directory>
+                                    <includes>
+                                        <include>README.md</include>
+                                        <include>readme.md</include>
+                                        <include>LICENSE</include>
+                                    </includes>
+                                </resource>
+                            </resources>
+                            <overwrite>true</overwrite>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <!-- generate sources code attachments -->
                 <groupId>org.apache.maven.plugins</groupId>
