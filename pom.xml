@@ -55,6 +55,10 @@
         <myoss-mybatis-generator.version>2.0.0.RELEASE</myoss-mybatis-generator.version>
         <!-- myoss cloud -->
 
+        <!-- myoss app -->
+        <myoss-wechat-starter.version>1.0.1.RELEASE</myoss-wechat-starter.version>
+        <!-- myoss app -->
+
         <!-- third party -->
         <fastjson.version>1.2.49</fastjson.version>
         <guava.version>26.0-jre</guava.version>
@@ -154,6 +158,19 @@
                 <version>${myoss-mybatis-generator.version}</version>
             </dependency>
             <!-- myoss cloud dependencies end -->
+
+            <!-- myoss app dependencies begin -->
+            <dependency>
+                <groupId>app.myoss.wechat</groupId>
+                <artifactId>wechat-starter-core</artifactId>
+                <version>${myoss-wechat-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>app.myoss.wechat</groupId>
+                <artifactId>wechat-starter-mp</artifactId>
+                <version>${myoss-wechat-starter.version}</version>
+            </dependency>
+            <!-- myoss app dependencies end -->
 
             <!-- utils start -->
             <dependency>
