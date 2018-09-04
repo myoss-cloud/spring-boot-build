@@ -368,9 +368,19 @@
                                     <artifactId>aspectjrt</artifactId>
                                 </dependency>
                                 <dependency>
-                                    <!-- wechat-starter 项目中: xmlpull:xmlpull xpp3:xpp3_min 有重复的class -->
+                                    <!-- wechat-starter 项目中: xmlpull:xmlpull, xpp3:xpp3_min 有重复的class -->
                                     <groupId>xmlpull</groupId>
                                     <artifactId>xmlpull</artifactId>
+                                </dependency>
+                                <dependency>
+                                    <!-- myoss-maven-plugin 项目中: javax.annotation:javax.annotation-api, javax.annotation:jsr250-api 有重复的class -->
+                                    <groupId>javax.annotation</groupId>
+                                    <artifactId>javax.annotation-api</artifactId>
+                                </dependency>
+                                <dependency>
+                                    <!-- myoss-maven-plugin 项目中: aopalliance:aopalliance, org.springframework:spring-aop 有重复的class -->
+                                    <groupId>aopalliance</groupId>
+                                    <artifactId>aopalliance</artifactId>
                                 </dependency>
                             </ignoredDependencies>
                         </configuration>
