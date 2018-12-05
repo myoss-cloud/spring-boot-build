@@ -342,51 +342,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <!-- https://github.com/basepom/duplicate-finder-maven-plugin/wiki -->
-                <groupId>org.basepom.maven</groupId>
-                <artifactId>duplicate-finder-maven-plugin</artifactId>
-                <version>1.3.0</version>
-                <executions>
-                    <execution>
-                        <id>duplicate-dependencies</id>
-                        <phase>validate</phase>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                        <configuration>
-                            <failBuildInCaseOfConflict>true</failBuildInCaseOfConflict>
-                            <ignoredResourcePatterns>
-                                <ignoredResourcePattern>changelog.txt</ignoredResourcePattern>
-                                <ignoredResourcePattern>README.md</ignoredResourcePattern>
-                                <ignoredResourcePattern>about.html</ignoredResourcePattern>
-                            </ignoredResourcePatterns>
-                            <ignoredDependencies>
-                                <dependency>
-                                    <!-- myoss-starter-projects 项目中: org.aspectj:aspectjrt, org.aspectj:aspectjweaver 有重复的 class -->
-                                    <groupId>org.aspectj</groupId>
-                                    <artifactId>aspectjrt</artifactId>
-                                </dependency>
-                                <dependency>
-                                    <!-- wechat-starter 项目中: xmlpull:xmlpull, xpp3:xpp3_min 有重复的class -->
-                                    <groupId>xmlpull</groupId>
-                                    <artifactId>xmlpull</artifactId>
-                                </dependency>
-                                <dependency>
-                                    <!-- myoss-maven-plugin 项目中: javax.annotation:javax.annotation-api, javax.annotation:jsr250-api 有重复的class -->
-                                    <groupId>javax.annotation</groupId>
-                                    <artifactId>javax.annotation-api</artifactId>
-                                </dependency>
-                                <dependency>
-                                    <!-- myoss-maven-plugin 项目中: aopalliance:aopalliance, org.springframework:spring-aop 有重复的class -->
-                                    <groupId>aopalliance</groupId>
-                                    <artifactId>aopalliance</artifactId>
-                                </dependency>
-                            </ignoredDependencies>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
         </plugins>
     </build>
 
