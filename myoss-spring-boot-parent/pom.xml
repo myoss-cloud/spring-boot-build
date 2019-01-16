@@ -6,7 +6,8 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.6.RELEASE</version>
+        <version>2.1.2.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <groupId>app.myoss.cloud</groupId>
@@ -49,7 +50,7 @@
         <!-- myoss cloud -->
 
         <!-- third party -->
-        <spring-boot.version>2.0.6.RELEASE</spring-boot.version>
+        <spring-boot.version>2.1.2.RELEASE</spring-boot.version>
         <spring-cloud-dependencies.version>Finchley.SR2</spring-cloud-dependencies.version>
 
         <puppycrawl-tools-checkstyle.version>8.10</puppycrawl-tools-checkstyle.version>
