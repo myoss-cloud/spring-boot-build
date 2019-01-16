@@ -22,6 +22,22 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>spring-boot-build</artifactId>
-    <version>2.0.18.RELEASE</version>
+    <version>2.1.0.RELEASE</version>
+</dependency>
+```
+
+```xml
+<dependency>
+    <groupId>app.myoss.cloud</groupId>
+    <artifactId>myoss-spring-boot-parent</artifactId>
+    <version>2.1.0.RELEASE</version>
+</dependency>
+```
+
+```xml
+<dependency>
+    <groupId>app.myoss.cloud</groupId>
+    <artifactId>myoss-cloud-dependencies</artifactId>
+    <version>2.1.0.RELEASE</version>
 </dependency>
 ```

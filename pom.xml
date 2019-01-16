@@ -5,10 +5,10 @@
 
     <groupId>app.myoss.cloud</groupId>
     <artifactId>spring-boot-build</artifactId>
-    <version>2.0.18.RELEASE</version>
+    <version>2.1.0.RELEASE</version>
     <packaging>pom</packaging>
 
-    <name>Spring Boot Build</name>
+    <name>myoss-spring-boot-build</name>
     <description>myoss open source project, Spring Boot Build</description>
     <url>https://github.com/myoss-cloud/spring-boot-build</url>
     <inceptionYear>2018</inceptionYear>

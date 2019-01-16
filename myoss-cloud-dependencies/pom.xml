@@ -6,8 +6,7 @@
     <parent>
         <groupId>app.myoss.cloud</groupId>
         <artifactId>spring-boot-build</artifactId>
-        <version>2.0.18.RELEASE</version>
-        <relativePath>../</relativePath>
+        <version>2.1.0.RELEASE</version>
     </parent>
 
     <artifactId>myoss-cloud-dependencies</artifactId>
@@ -63,15 +62,14 @@
         <guava.version>26.0-jre</guava.version>
         <commons-text.version>1.3</commons-text.version>
         <squareup-okhttp3.version>3.11.0</squareup-okhttp3.version>
-        <!-- third party -->
-
-        <!-- third party -->
-        <spring-boot.version>2.0.4.RELEASE</spring-boot.version>
-        <spring-cloud-dependencies.version>Finchley.SR2</spring-cloud-dependencies.version>
-        <puppycrawl-tools-checkstyle.version>8.10</puppycrawl-tools-checkstyle.version>
-        <spring-javaformat-checkstyle.version>0.0.5</spring-javaformat-checkstyle.version>
         <mybatis.version>3.4.6</mybatis.version>
         <mybatis-spring.version>1.3.2</mybatis-spring.version>
+
+        <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
+        <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
+        <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
+        <puppycrawl-tools-checkstyle.version>8.10</puppycrawl-tools-checkstyle.version>
+        <spring-javaformat-checkstyle.version>0.0.5</spring-javaformat-checkstyle.version>
         <!-- third party -->
     </properties>
 
@@ -174,6 +172,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-resources-plugin</artifactId>
+                <version>${maven-resources-plugin.version}</version>
                 <executions>
                     <execution>
                         <id>copy-other-resources</id>
@@ -211,6 +210,7 @@
                 <!-- generate sources code attachments -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
+                <version>${maven-source-plugin.version}</version>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
@@ -224,6 +224,7 @@
                 <!-- generate javadoc attachments -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
+                <version>${maven-javadoc-plugin.version}</version>
                 <executions>
                     <execution>
                         <id>attach-javadoc</id>
