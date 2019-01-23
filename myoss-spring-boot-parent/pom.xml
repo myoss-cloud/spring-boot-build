@@ -51,7 +51,7 @@
 
         <!-- third party -->
         <spring-boot.version>2.1.2.RELEASE</spring-boot.version>
-        <spring-cloud-dependencies.version>Finchley.SR2</spring-cloud-dependencies.version>
+        <spring-cloud-dependencies.version>Greenwich.RELEASE</spring-cloud-dependencies.version>
 
         <puppycrawl-tools-checkstyle.version>8.10</puppycrawl-tools-checkstyle.version>
         <spring-javaformat-checkstyle.version>0.0.5</spring-javaformat-checkstyle.version>
