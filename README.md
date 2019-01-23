@@ -41,3 +41,31 @@
     <version>2.1.0.RELEASE</version>
 </dependency>
 ```
+
+## Usage
+
+1. `pom.xml` 继承的方式
+
+    ```xml
+        <parent>
+            <groupId>app.myoss.cloud</groupId>
+            <artifactId>myoss-spring-boot-parent</artifactId>
+            <version>2.1.0.RELEASE</version>
+        </parent>
+    ```
+
+2. `pom.xml` 使用 `import` 的方式
+
+    ```xml
+        <dependencyManagement>
+            <dependencies>
+                <dependency>
+                    <groupId>app.myoss.cloud</groupId>
+                    <artifactId>myoss-cloud-dependencies</artifactId>
+                    <version>${myoss-cloud-dependencies.version}</version>
+                    <type>pom</type>
+                    <scope>import</scope>
+                </dependency>
+            </dependencies>
+        </dependencyManagement>
+    ```
