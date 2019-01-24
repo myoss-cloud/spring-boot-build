@@ -113,6 +113,11 @@
                 <artifactId>wechat-starter-mp</artifactId>
                 <version>${myoss-wechat-starter.version}</version>
             </dependency>
+            <dependency>
+                <groupId>app.myoss.wechat</groupId>
+                <artifactId>wechat-starter-mini-app</artifactId>
+                <version>${myoss-wechat-starter.version}</version>
+            </dependency>
             <!-- myoss app dependencies end -->
 
             <!-- utils start -->
