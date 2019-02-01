@@ -43,7 +43,7 @@
     <properties>
         <!-- myoss cloud -->
         <myoss-starter-projects.version>2.1.1.RELEASE</myoss-starter-projects.version>
-        <myoss-mybatis.version>2.1.0.RELEASE</myoss-mybatis.version>
+        <myoss-mybatis.version>2.1.1.RELEASE</myoss-mybatis.version>
         <myoss-mybatis-generator.version>2.1.0.RELEASE</myoss-mybatis-generator.version>
         <!-- myoss cloud -->
 
