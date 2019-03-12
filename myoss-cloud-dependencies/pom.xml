@@ -91,6 +91,11 @@
                 <version>${myoss-starter-projects.version}</version>
             </dependency>
             <dependency>
+                <groupId>app.myoss.cloud.boot</groupId>
+                <artifactId>myoss-starter-webflux</artifactId>
+                <version>${myoss-starter-projects.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>app.myoss.cloud.mybatis</groupId>
                 <artifactId>myoss-mybatis</artifactId>
                 <version>${myoss-mybatis.version}</version>
