@@ -50,7 +50,7 @@
         <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
         <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
-        <puppycrawl-tools-checkstyle.version>8.10</puppycrawl-tools-checkstyle.version>
+        <puppycrawl-tools-checkstyle.version>8.18</puppycrawl-tools-checkstyle.version>
         <spring-javaformat-checkstyle.version>0.0.5</spring-javaformat-checkstyle.version>
         <!-- third party -->
     </properties>
