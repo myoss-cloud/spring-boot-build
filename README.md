@@ -6,7 +6,7 @@
 
 ## Documentation
 
-- [Documentation Home](https://github.com/myoss-cloud/spring-boot-build/wiki)
+- [Documentation Home](https://cloud-docs.myoss.app/artifact-version/manage-dependencies.html)
 
 ## Download
 
@@ -22,7 +22,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>spring-boot-build</artifactId>
-    <version>2.1.4.RELEASE</version>
+    <version>2.1.5.RELEASE</version>
 </dependency>
 ```
 
@@ -30,7 +30,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>myoss-spring-boot-parent</artifactId>
-    <version>2.1.4.RELEASE</version>
+    <version>2.1.5.RELEASE</version>
 </dependency>
 ```
 
@@ -38,7 +38,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>myoss-cloud-dependencies</artifactId>
-    <version>2.1.4.RELEASE</version>
+    <version>2.1.5.RELEASE</version>
 </dependency>
 ```
 
@@ -50,7 +50,7 @@
         <parent>
             <groupId>app.myoss.cloud</groupId>
             <artifactId>myoss-spring-boot-parent</artifactId>
-            <version>2.1.4.RELEASE</version>
+            <version>2.1.5.RELEASE</version>
         </parent>
     ```
 
