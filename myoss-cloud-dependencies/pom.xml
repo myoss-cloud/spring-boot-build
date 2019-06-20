@@ -93,6 +93,11 @@
             </dependency>
             <dependency>
                 <groupId>app.myoss.cloud.boot</groupId>
+                <artifactId>myoss-starter-webmvc</artifactId>
+                <version>${myoss-starter-projects.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>app.myoss.cloud.boot</groupId>
                 <artifactId>myoss-starter-webflux</artifactId>
                 <version>${myoss-starter-projects.version}</version>
             </dependency>
