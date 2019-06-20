@@ -22,7 +22,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>spring-boot-build</artifactId>
-    <version>2.1.6.RELEASE</version>
+    <version>2.1.7.RELEASE</version>
 </dependency>
 ```
 
@@ -30,7 +30,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>myoss-spring-boot-parent</artifactId>
-    <version>2.1.6.RELEASE</version>
+    <version>2.1.7.RELEASE</version>
 </dependency>
 ```
 
@@ -38,7 +38,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>myoss-cloud-dependencies</artifactId>
-    <version>2.1.6.RELEASE</version>
+    <version>2.1.7.RELEASE</version>
 </dependency>
 ```
 
@@ -50,7 +50,7 @@
         <parent>
             <groupId>app.myoss.cloud</groupId>
             <artifactId>myoss-spring-boot-parent</artifactId>
-            <version>2.1.6.RELEASE</version>
+            <version>2.1.7.RELEASE</version>
         </parent>
     ```
 
