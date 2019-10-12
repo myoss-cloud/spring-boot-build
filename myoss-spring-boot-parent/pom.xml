@@ -105,16 +105,16 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud-dependencies.version}</version>
+                <groupId>app.myoss.cloud</groupId>
+                <artifactId>myoss-cloud-dependencies</artifactId>
+                <version>${myoss-cloud.spring-boot-build.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>app.myoss.cloud</groupId>
-                <artifactId>myoss-cloud-dependencies</artifactId>
-                <version>${myoss-cloud.spring-boot-build.version}</version>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud-dependencies.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
