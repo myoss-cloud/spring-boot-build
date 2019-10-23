@@ -51,7 +51,7 @@
 
         <!-- myoss cloud -->
         <myoss-cloud.spring-boot-build.version>2.1.12.RELEASE</myoss-cloud.spring-boot-build.version>
-        <myoss-cloud.java-code-style.version>2.1.3.RELEASE</myoss-cloud.java-code-style.version>
+        <myoss-cloud.java-code-style.version>2.1.4.RELEASE</myoss-cloud.java-code-style.version>
         <!-- myoss cloud -->
 
         <!-- third party -->
