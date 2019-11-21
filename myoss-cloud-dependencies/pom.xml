@@ -61,6 +61,7 @@
         <mybatis-spring.version>2.0.2</mybatis-spring.version>
         <prometheus.version>0.6.0</prometheus.version>
         <weixin-java-tools.version>3.5.0</weixin-java-tools.version>
+        <opentracing-spring-jaeger-cloud.version>2.0.3</opentracing-spring-jaeger-cloud.version>
         <!-- third party -->
     </properties>
 
@@ -262,6 +263,13 @@
                 </exclusions>
             </dependency>
             <!-- wechat java tools end -->
+
+            <dependency>
+                <!-- jaeger 调用链路监控 -->
+                <groupId>io.opentracing.contrib</groupId>
+                <artifactId>opentracing-spring-jaeger-cloud-starter</artifactId>
+                <version>${opentracing-spring-jaeger-cloud.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
