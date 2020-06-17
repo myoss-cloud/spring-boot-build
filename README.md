@@ -13,7 +13,7 @@
 - [maven][1]
 - [the latest JAR][2]  
 
-[1]: http://repo1.maven.org/maven2/app/myoss/cloud/spring-boot-build/  
+[1]: https://repo1.maven.org/maven2/app/myoss/cloud/spring-boot-build/  
 [2]: https://search.maven.org/remote_content?g=app.myoss.cloud&a=spring-boot-build&v=LATEST
 
 ## Maven
