@@ -42,7 +42,7 @@
 
     <properties>
         <!-- myoss cloud -->
-        <myoss-starter-projects.version>2.1.11-RC2</myoss-starter-projects.version>
+        <myoss-starter-projects.version>2.1.11-RC3</myoss-starter-projects.version>
         <myoss-mybatis.version>2.1.5-RC2</myoss-mybatis.version>
         <myoss-mybatis-generator.version>2.1.6-RC2</myoss-mybatis-generator.version>
         <myoss-datasource-routing.version>1.0.1.RELEASE</myoss-datasource-routing.version>
