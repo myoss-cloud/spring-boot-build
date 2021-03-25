@@ -11,9 +11,10 @@
 ## Download
 
 - [maven][1]
-- [the latest JAR][2]  
+- [the latest JAR][2]
 
-[1]: https://repo1.maven.org/maven2/app/myoss/cloud/spring-boot-build/  
+[1]: https://repo1.maven.org/maven2/app/myoss/cloud/spring-boot-build/
+
 [2]: https://search.maven.org/remote_content?g=app.myoss.cloud&a=spring-boot-build&v=LATEST
 
 ## Maven
@@ -22,7 +23,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>spring-boot-build</artifactId>
-    <version>2020.0.0.RELEASE</version>
+    <version>2021.0.0.RELEASE</version>
 </dependency>
 ```
 
@@ -30,7 +31,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>myoss-spring-boot-parent</artifactId>
-    <version>2020.0.0.RELEASE</version>
+    <version>2021.0.0.RELEASE</version>
 </dependency>
 ```
 
@@ -38,7 +39,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>myoss-cloud-dependencies</artifactId>
-    <version>2020.0.0.RELEASE</version>
+    <version>2021.0.0.RELEASE</version>
 </dependency>
 ```
 
@@ -50,7 +51,7 @@
         <parent>
             <groupId>app.myoss.cloud</groupId>
             <artifactId>myoss-spring-boot-parent</artifactId>
-            <version>2020.0.0.RELEASE</version>
+            <version>2021.0.0.RELEASE</version>
         </parent>
     ```
 
