@@ -65,6 +65,7 @@
         <weixin-java-tools.version>3.9.0</weixin-java-tools.version>
         <opentracing-spring-jaeger-cloud.version>3.2.2</opentracing-spring-jaeger-cloud.version>
         <org.mapstruct.version>1.4.1.Final</org.mapstruct.version>
+        <swagger.version>1.6.2</swagger.version>
         <!-- third party -->
     </properties>
 
@@ -294,6 +295,11 @@
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct-processor</artifactId>
                 <version>${org.mapstruct.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-annotations</artifactId>
+                <version>${swagger.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
