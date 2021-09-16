@@ -66,6 +66,7 @@
         <opentracing-spring-jaeger-cloud.version>3.2.2</opentracing-spring-jaeger-cloud.version>
         <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
         <swagger.version>1.6.2</swagger.version>
+        <xk-time.version>3.2.1.Mini</xk-time.version>
         <!-- third party -->
     </properties>
 
@@ -169,6 +170,11 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-text</artifactId>
                 <version>${commons-text.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.xkzhangsan</groupId>
+                <artifactId>xk-time</artifactId>
+                <version>${xk-time.version}</version>
             </dependency>
             <!-- utils end -->
 
