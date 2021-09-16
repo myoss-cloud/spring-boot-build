@@ -67,6 +67,7 @@
         <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
         <swagger.version>1.6.2</swagger.version>
         <xk-time.version>3.2.1.Mini</xk-time.version>
+        <mybatis-plus-boot.version>3.4.3.3</mybatis-plus-boot.version>
         <!-- third party -->
     </properties>
 
@@ -201,6 +202,11 @@
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper</artifactId>
                 <version>${mybatis-pagehelper.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus-boot.version}</version>
             </dependency>
             <!-- mybatis end -->
 
