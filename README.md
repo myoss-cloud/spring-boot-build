@@ -23,7 +23,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>spring-boot-build</artifactId>
-    <version>2021.0.1.RELEASE</version>
+    <version>2021.0.2.RELEASE</version>
 </dependency>
 ```
 
@@ -31,7 +31,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>myoss-spring-boot-parent</artifactId>
-    <version>2021.0.1.RELEASE</version>
+    <version>2021.0.2.RELEASE</version>
 </dependency>
 ```
 
@@ -39,7 +39,7 @@
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>myoss-cloud-dependencies</artifactId>
-    <version>2021.0.1.RELEASE</version>
+    <version>2021.0.2.RELEASE</version>
 </dependency>
 ```
 
@@ -51,7 +51,7 @@
         <parent>
             <groupId>app.myoss.cloud</groupId>
             <artifactId>myoss-spring-boot-parent</artifactId>
-            <version>2021.0.1.RELEASE</version>
+            <version>2021.0.2.RELEASE</version>
         </parent>
     ```
 
