@@ -62,7 +62,7 @@
         <mybatis-spring.version>2.0.2</mybatis-spring.version>
         <mybatis-pagehelper.version>5.2.0</mybatis-pagehelper.version>
         <prometheus.version>0.9.0</prometheus.version>
-        <weixin-java-tools.version>3.9.0</weixin-java-tools.version>
+        <weixin-java-tools.version>4.1.0</weixin-java-tools.version>
         <opentracing-spring-jaeger-cloud.version>3.2.2</opentracing-spring-jaeger-cloud.version>
         <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
         <swagger.version>1.6.2</swagger.version>
