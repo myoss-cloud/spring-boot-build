@@ -5,7 +5,7 @@
 
     <groupId>app.myoss.cloud</groupId>
     <artifactId>spring-boot-build</artifactId>
-    <version>2022.0.1.RELEASE</version>
+    <version>2022.0.2.RELEASE</version>
     <packaging>pom</packaging>
 
     <name>myoss-spring-boot-build</name>
