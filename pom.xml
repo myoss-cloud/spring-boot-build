@@ -5,7 +5,7 @@
 
     <groupId>app.myoss.cloud</groupId>
     <artifactId>spring-boot-build</artifactId>
-    <version>2022.0.1.RELEASE</version>
+    <version>2022.0.3.RELEASE</version>
     <packaging>pom</packaging>
 
     <name>myoss-spring-boot-build</name>
@@ -166,7 +166,9 @@
                         <configuration>
                             <!-- 在检查失败的时候，如果想忽略错误信息，可以设置为：false -->
                             <failOnViolation>${checkstyle.alibaba-p3c.failOnViolation}</failOnViolation>
-                            <excludeFromFailureFile>${project.basedir}/src/main/resources/alibaba-p3c-exclude-pmd.properties</excludeFromFailureFile>
+                            <excludeFromFailureFile>
+                                ${project.basedir}/src/main/resources/alibaba-p3c-exclude-pmd.properties
+                            </excludeFromFailureFile>
                         </configuration>
                     </execution>
                 </executions>

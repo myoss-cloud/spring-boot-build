@@ -20,26 +20,29 @@
 ## Maven
 
 ```xml
+
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>spring-boot-build</artifactId>
-    <version>2022.0.1.RELEASE</version>
+    <version>2022.0.3.RELEASE</version>
 </dependency>
 ```
 
 ```xml
+
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>myoss-spring-boot-parent</artifactId>
-    <version>2022.0.1.RELEASE</version>
+    <version>2022.0.3.RELEASE</version>
 </dependency>
 ```
 
 ```xml
+
 <dependency>
     <groupId>app.myoss.cloud</groupId>
     <artifactId>myoss-cloud-dependencies</artifactId>
-    <version>2022.0.1.RELEASE</version>
+    <version>2022.0.3.RELEASE</version>
 </dependency>
 ```
 
@@ -51,7 +54,7 @@
         <parent>
             <groupId>app.myoss.cloud</groupId>
             <artifactId>myoss-spring-boot-parent</artifactId>
-            <version>2022.0.1.RELEASE</version>
+            <version>2022.0.3.RELEASE</version>
         </parent>
     ```
 

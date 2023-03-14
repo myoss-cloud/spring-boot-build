@@ -6,7 +6,7 @@
     <parent>
         <groupId>app.myoss.cloud</groupId>
         <artifactId>spring-boot-build</artifactId>
-        <version>2022.0.1.RELEASE</version>
+        <version>2022.0.3.RELEASE</version>
     </parent>
 
     <artifactId>myoss-cloud-dependencies</artifactId>
@@ -49,7 +49,7 @@
         <!-- myoss cloud -->
 
         <!-- myoss app -->
-        <myoss-wechat-starter.version>1.1.6.RELEASE</myoss-wechat-starter.version>
+        <myoss-wechat-starter.version>1.1.8.RELEASE</myoss-wechat-starter.version>
         <!-- myoss app -->
 
         <!-- third party -->
